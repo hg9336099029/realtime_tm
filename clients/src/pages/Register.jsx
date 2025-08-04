@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { ClipLoader } from 'react-spinners';
 import { registerUser } from '../api/authapi';
 
-const Signup = () => {
+const Register = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -107,4 +107,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Register;
